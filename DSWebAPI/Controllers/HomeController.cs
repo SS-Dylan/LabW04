@@ -15,7 +15,7 @@ namespace DSWebAPI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("The Videogame Web API");
         }
 
         public IActionResult Privacy()
